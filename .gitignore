@@ -1,0 +1,12 @@
+# build output (texconv.exe is bundled on purpose, see THIRD_PARTY_NOTICES.md)
+*.exe
+!texconv.exe
+*.zip
+*.pdb
+obj/
+bin/
+
+# scratch
+*.bak
+*.tmp
+.vs/
